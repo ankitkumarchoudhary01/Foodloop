@@ -62,13 +62,13 @@ const Landing = () => {
               {/* Stat Chips */}
               <div className="flex flex-wrap gap-4">
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center shadow-[0_0_15px_rgba(22,163,74,0.3)]">
-                  ðŸ± 12,400 kg food redistributed
+                  12,400 kg food redistributed
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center shadow-[0_0_15px_rgba(22,163,74,0.3)]">
-                  ðŸ¤ 340+ NGO partners
+                  340+ NGO partners
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center shadow-[0_0_15px_rgba(22,163,74,0.3)]">
-                  ðŸšš 2,100 daily meals served
+                  2,100 daily meals served
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Landing = () => {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="font-bold text-gray-900 text-lg">City Hospital Kitchen</h3>
-                    <p className="text-sm text-gray-500">Central District â€¢ 2.5 km away</p>
+                    <p className="text-sm text-gray-500">Central District 2.5 km away</p>
                   </div>
                   <span className="bg-amber-100 text-amber-800 text-xs font-bold px-2.5 py-1 rounded-full">
                     8.2 kg Total
@@ -102,7 +102,7 @@ const Landing = () => {
                 </div>
                 <div className="bg-blue-50 p-3 rounded-lg mb-4 flex items-center text-blue-800 text-sm">
                   <CheckCircle2 className="w-4 h-4 mr-2 text-blue-600" />
-                  Quality Checked â€¢ Temp: 65Â°C
+                  Quality Checked Temp: 65°C
                 </div>
                 <button className="w-full bg-[#1e6fba] text-white font-medium py-3 rounded-xl shadow-sm hover:bg-blue-700 transition-colors">
                   Claim Surplus Now

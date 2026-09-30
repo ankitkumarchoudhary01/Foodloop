@@ -135,16 +135,14 @@ export default function Topbar() {
           >
             <Building2 className="w-4 h-4 text-gray-600" />
             <span className="text-gray-700 font-medium max-w-40 truncate">
-              {kitchenProfile?.kitchenName || "My Restaurant"}
+              {kitchenProfile?.kitchenName || "My organization"}
             </span>
             <ChevronDown className="w-3.5 h-3.5 text-gray-500" />
           </button>
           {restaurantOpen && (
             <div className="absolute top-full right-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-100 py-1 z-30">
               {[
-                kitchenProfile?.kitchenName || "My Restaurant",
-                "City Food Hub",
-                "Sunrise Kitchen",
+                kitchenProfile?.kitchenName || "My Organization"
               ].map((name) => (
                 <button
                   key={name}
